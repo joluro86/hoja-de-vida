@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.debug{
+    border: solid 2px red;
+}
+
+.aside{
+    width: 300px;
+}
+aside{
+    @apply min-h-screen aside debug;
+}

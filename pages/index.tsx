@@ -1,11 +1,12 @@
-import Image from 'next/image'
-
-export default function Home() {
+import { Menu_izquierdo } from "@/components/Menu-izquierdo";
+ function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col`}
-    >
-      hola
-    </main>
+    <div className="flex flex-row">
+      <Menu_izquierdo/>
+      <main className="">
+        soy el main
+      </main>
+    </div>
   )
 }
+export default Home;

@@ -1,9 +1,10 @@
 import React from 'react'
+import { FotoComponent } from './Foto-aside'
 
 const Menu_izquierdo = () => {
   return (
     <aside className='aside'>
-     Soy un aside 333
+     <FotoComponent/>
     </aside>
   )
 }

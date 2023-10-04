@@ -6,9 +6,25 @@
     border: solid 2px red;
 }
 
+body{
+    background-color: rgb(212, 241, 240);
+}
+
 .aside{
-    width: 300px;
+    width: 250px;
+    background-color: white;
 }
 aside{
     @apply min-h-screen aside debug;
+}
+
+.circulo_verde_foto{
+    position: absolute;
+    top: 135px;
+    left: 175px;
+    @apply bg-emerald-400 rounded-full w-4 h-4;
+}
+
+.border_botton_cards{
+    @apply text-sm text-slate-600 font-medium mt-1 mb-0 pb-12 border-b-2 w-4/5 text-center;
 }

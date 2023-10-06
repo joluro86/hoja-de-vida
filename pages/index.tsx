@@ -1,8 +1,9 @@
-import { Menu_izquierdo } from "@/components/Menu-izquierdo";
+import { Aside } from "@/components/Aside";
+
  function Home() {
   return (
     <div className="flex flex-row">
-      <Menu_izquierdo/>
+      <Aside/>
       <main className="">
         soy el main
       </main>

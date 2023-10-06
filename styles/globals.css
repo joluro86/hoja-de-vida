@@ -2,29 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-.debug{
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.debug {
     border: solid 2px red;
 }
 
-body{
+body {
     background-color: rgb(212, 241, 240);
 }
 
-.aside{
+.aside {
     width: 250px;
     background-color: white;
 }
-aside{
-    @apply min-h-screen aside debug;
+
+aside {
+    @apply min-h-screen aside px-6 pt-2;
 }
 
-.circulo_verde_foto{
+.circulo_verde_foto {
     position: absolute;
     top: 135px;
     left: 175px;
     @apply bg-emerald-400 rounded-full w-4 h-4;
 }
 
-.border_botton_cards{
-    @apply text-sm text-slate-600 font-medium mt-1 mb-0 pb-12 border-b-2 w-4/5 text-center;
+.border_botton_cards {
+    @apply text-sm text-slate-600 font-medium mt-1 mb-0 pb-8 border-b-2 w-full text-center;
+}
+
+
+.linea-horizontal {
+    border-bottom: 2px solid #cfcccc; /* Cambia el color si lo necesitas */
+    width: 100%;
+  }
+
+.div_barra {
+    border: solid 1px rgb(18, 161, 238);
+    border-radius: 5px;
+}
+
+.barra_porcentaje {
+    border: solid 1px rgb(87, 160, 197);
+    margin: 1px 1px;
+}
+
+.barra_porcentaje.barra_ingles {
+    @apply w-full;
+}
+
+.barra_porcentaje.barra_ingles {
+    @apply w-3/5;
+}
+
+.idiomas.border_botton{
+    width: 100%;
+    background-color: blue;
 }

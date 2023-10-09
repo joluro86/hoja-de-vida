@@ -59,6 +59,25 @@ aside {
     @apply w-3/5;
 }
 
+.barra_porcentaje.barra_js {
+    @apply w-3/5;
+}
+
+.barra_porcentaje.barra_php {
+    @apply w-4/5;
+}
+.barra_porcentaje.barra_python {
+    @apply w-4/5;
+}
+
+.barra_porcentaje.barra_html{
+    @apply w-4/5;
+}
+
+.barra_porcentaje.barra_css{
+    @apply w-[70%];
+}
+
 .idiomas.border_botton{
     width: 100%;
     background-color: blue;

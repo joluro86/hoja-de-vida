@@ -4,13 +4,13 @@ import { LineaHorizontal } from './Border_bottom';
 
 const FotoComponent = () => {
   return (
-    <div className='flex flex-col items-center gap-2 pb-4 relative'>
+    <div className='flex flex-col items-center gap-2 pb-2 relative'>
       <img src="/img/foto_menu.jpeg" alt="Foto de hoja de vida" className='rounded-full w-36 h-36' />
       <span className='circulo_verde_foto'></span>
-      <span className='font-medium text-slate-900 mt-4'>Jorge Luis Rodríguez</span>
-      <span>Full-Stack Developer</span>
+      <span className='font-medium text-slate-900'>Jorge Luis Rodríguez</span>
+      <span className='font-sm text-sm'>Full-Stack Developer</span>
       <LineaHorizontal/>
-      <div className='flex flex-col w-full py-2 text-sm'>
+      <div className='flex flex-col w-full py-1 text-sm'>
         <div className='flex justify-between'>
           <span>Edad:</span>
           <span>37</span>

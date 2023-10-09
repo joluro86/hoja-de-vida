@@ -5,7 +5,7 @@ import { LineaHorizontal } from './Border_bottom';
 const FotoComponent = () => {
   return (
     <div className='flex flex-col items-center gap-2 pb-2 relative'>
-      <img src="/img/foto_menu.jpeg" alt="Foto de hoja de vida" className='rounded-full w-36 h-36' />
+      <img src="/img/foto_menu.png" alt="Foto de hoja de vida" className='rounded-full w-36 h-36' />
       <span className='circulo_verde_foto'></span>
       <span className='font-medium text-slate-900'>Jorge Luis Rodríguez</span>
       <span className='font-sm text-sm'>Full-Stack Developer</span>

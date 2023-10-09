@@ -46,4 +46,4 @@ const Conocimientos = () => {
     )
 }
 
-export default Conocimientos
+export {Conocimientos}

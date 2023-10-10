@@ -5,7 +5,7 @@ interface SkillProps {
 }
 const Skill = ({ skill, porcentaje, barraClaseAdicional }: SkillProps) => {
     return (
-        <div className="font-sm text-sm">
+        <div className="font-sm text-sm color_letra">
             <div className="flex justify-between">
                 <span>{skill}</span>
                 <span>{porcentaje}</span>

@@ -9,12 +9,12 @@ interface CardConocimientoProps {
 
 const CardConocimiento: React.FC<CardConocimientoProps> = ({ titulo, icono: IconComponent, descripcion }) => {
     return (
-        <div className="p-4 fondo_cards flex mt-4 max-w-[40%] min-w-[32%]">
+        <div className="p-4 color_letra fondo_cards flex mt-4 max-w-[40%] min-w-[32%]">
             <div className='flex flex-col items-center justify-center mx-auto'>
                 <div className='icono text-8xl text-blue-500'>
-                    <IconComponent style={{ strokeWidth: 0.8 }} />
+                    <IconComponent style={{ strokeWidth:0.8 }} />
                 </div>
-                <span className='titulo'>{titulo}</span>
+                <span className='font-medium text-lg color_letra'>{titulo}</span>
                 <span className='descripcion'>{descripcion}</span>
             </div>
         </div>

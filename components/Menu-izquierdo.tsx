@@ -7,9 +7,7 @@ import { LineaHorizontal } from './Border_bottom';
 const Menu_izquierdo = () => {
   return (
     <aside className='aside'>
-
       <FotoComponent />
-
       <div>
         <Skills titulo="Idiomas" />
         <Skill skill='Español' porcentaje='100' barraClaseAdicional='barra_español' />
@@ -18,7 +16,6 @@ const Menu_izquierdo = () => {
           <LineaHorizontal />
         </div>
       </div>
-
       <div>
         <Skills titulo="Lenguajes de Programación" />
         <Skill skill='Python' porcentaje='80' barraClaseAdicional='barra_python' />
@@ -28,13 +25,11 @@ const Menu_izquierdo = () => {
           <LineaHorizontal />
         </div>
       </div>
-
       <div>
         <Skills titulo="Otras habilidades" />
         <Skill skill='Html' porcentaje='90' barraClaseAdicional='barra_html' />
         <Skill skill='CSS' porcentaje='70' barraClaseAdicional='barra_css' />
       </div>
-
     </aside>
   )
 }

@@ -4,7 +4,7 @@ interface SkillsProps {
 const Skills = ({titulo}:SkillsProps) => {
     return (
         <div>
-            <span>{titulo}</span>                     
+            <span className="font-medium color_letra">{titulo}</span>                     
         </div>
     )
 }

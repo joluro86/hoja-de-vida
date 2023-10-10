@@ -2,16 +2,22 @@ import { Aside } from "@/components/Aside";
 import {Conocimientos} from "@/components/Conocimientos";
 import { Recuadro_principal_main } from "@/components/Recuadro_principal_main";
 import { Educacion } from "@/components/Educacion";
+import { Portafolio } from "@/components/Portafolio";
+import {SocialIcons} from "@/components/Social_icons";
+import { Footer } from "@/components/Footer";
 
  function Home() {
   return (
-    <div className="flex flex-row">
-      <Aside/>
-      <main className="w-full mr-12 ml-10">
+    <div className="relative flex flex-row padre_main">
+      <SocialIcons/>      
+      <main className="main overflow-y-auto">
         <Recuadro_principal_main/>
         <Conocimientos/>
         <Educacion/>
-      </main>
+        <Portafolio/>
+        <Footer/>
+      </main>   
+      <Aside/>   
     </div>
   )
 }
